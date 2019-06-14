@@ -5,7 +5,7 @@
       <h2>Item Title</h2>
         <img src="http://via.placeholder.com/800x400?text=IMAGE+OR+VIDEO+FILE" alt="">
 
-        <p>Item description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ipsam architecto, placeat enim hic porro laudantium distinctio nemo! Nobis sunt numquam magni eius aut dolor accusamus commodi velit maiores cum.</p>
+        <p>Item description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ipsam architecto, placeat enim hic porro laudantium distinctio nemo! Nobis sunt numquam magni eius aut dolor accusamus <a href="#">commodi velit</a> maiores cum.</p>
         <p>Nobis sunt numquam magni eius aut dolor accusamus commodi velit maiores cum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cumque est, quidem vitae, odit at. Dolores est vero laborum alias voluptate accusantium, repudiandae obcaecati, corrupti natus iusto quisquam! Nostrum, eum.</p>
         <p><span class="metadata-element">Metadtata Title</span>Metadtata Value</p>

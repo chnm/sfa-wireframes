@@ -63,17 +63,133 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+$primary: #001a70;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p > a, .item-extra a {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+    color: $primary;
+    font-family: 'Roboto Slab', serif;
+}
+
 .top {
     padding-top:10px;
 }
 
+.fi-map {
+    font-size:39px;
+    display: inline-flex;
+    vertical-align: middle;
+    color:#a4d65e;
+}
+
 #search input {
     display: inline;
-    width:50%;
+    width:90%;
 }
 
 #search button {
     margin-top:15px;
+}
+
+a.collection, a.item-file {
+    display:block;
+}
+
+.items .cell {
+    margin-bottom: 1rem;
+}
+
+.metadata-element {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-right:1rem;
+}
+
+.item-extra {
+    margin-top:1rem;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.logo {
+    width:175px;
+    float:left;
+}
+
+hr {
+    border-bottom:1px solid #a4d65e;
+}
+
+#colors h2 {
+    display:block;
+    width:100%;
+    border-bottom:5px solid #a4d65e;
+    margin-bottom:1rem;
+}
+
+.color {
+    margin-bottom: 1rem;
+}
+
+.color div:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+
+#color-1 {
+    background: #001a70;
+}
+
+#color-2 {
+    background: #a4d65e;
+}
+
+#color-3 {
+    background: #f7ea48;
+}
+
+#content .button {
+    background: rgb(164,214,94);
+    color:#001a70;
+}
+
+#content .button:hover {
+    background: rgba(164,214,94, 0.75);
+}
+
+.pullquote {
+        border-left:10px solid #f7ea48;
+        background-color: rgba(0,26,112,0.75);
+        font-size:1.5rem;
+        color:#fff;
+        padding: 2rem;
+        float:right;
+    }
+
+.border {
+        border-left: 2px solid #f7ea48;
+        padding-left:1rem;
+
+        a {
+            display:block;
+        }
+         a:hover {
+            text-decoration: underline;
+        }
+    }
+
+.top {
+    padding-top:10px;
 }
 
 a.collection, a.item-file {

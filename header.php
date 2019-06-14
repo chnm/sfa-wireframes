@@ -5,7 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SFA Archive</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
@@ -16,9 +17,9 @@
         <div class="medium-4 cell top">
           <h1><a href="index.php">SFA Archive</a></h1>
         </div>
-        <div id="search" class="medium-7 medium-offset-1 cell top">
-          <span>Search:</span>
-          <button class="button dropdown" data-toggle="subject-dropdown">Subjects</button>
+        <div id="search" class="medium-5 medium-offset-3 cell top">
+          <!-- <span>Search:</span> -->
+          <!-- <button class="button dropdown" data-toggle="subject-dropdown">Subjects</button>
             <div class="dropdown-pane" id="subject-dropdown" data-dropdown data-auto-focus="true">
               <ul>
                 <li><a href="browse.php">Subject</a></li>
@@ -28,7 +29,8 @@
                 <li><a href="browse.php">Subject</a></li>
               </ul>
             </div>
-          <button class="button dropdown" data-toggle="location-dropdown">Locations</button>
+          <button class="button dropdown" data-toggle="location-dropdown">Locations</button>-->
+            <i class="fi-map dropdown" data-toggle="location-dropdown"></i>
             <div class="dropdown-pane" id="location-dropdown" data-dropdown data-auto-focus="true">
                 <ul>
                   <li><a href="browse.php">Location</a></li>
@@ -38,7 +40,8 @@
                   <li><a href="browse.php">Location</a></li>
                   <li><a href="map.php">Full Map</a></li>
                 </ul>
-              </div>
+              </div> 
+          
           <input type="text" placeholder="Search Bar">
         </div>
 

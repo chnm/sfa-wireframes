@@ -13,31 +13,13 @@
       </div>
 
       <div class="grid-x grid-padding-x top">
-        <div class="medium-3 cell">
+        <div class="medium-4 cell">
           <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
         </div>
-        <div class="medium-3 cell">
+        <div class="medium-4 cell">
           <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
         </div>
-        <div class="medium-3 cell">
-          <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
-        </div>
-        <div class="medium-3 cell">
-          <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
-        </div>
-      </div>
-
-      <div class="grid-x grid-padding-x top">
-        <div class="medium-3 cell">
-          <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
-        </div>
-        <div class="medium-3 cell">
-          <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
-        </div>
-        <div class="medium-3 cell">
-          <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
-        </div>
-        <div class="medium-3 cell">
+        <div class="medium-4 cell">
           <a href="item.php"><img src="http://via.placeholder.com/500?text=FEATURED+ITEM" alt=""></a>
         </div>
       </div>
